@@ -1,5 +1,4 @@
 
-import { NavLink } from "react-router-dom";
 
 const Home = () => (
   <div
@@ -18,12 +17,7 @@ const Home = () => (
 
     <div className="d-flex justify-content-center gap-3">
       <button id="personalization-btn" className="btn btn-primary btn-lg rounded-3">Personalization</button>
-      {/* <NavLink to="/about" className="btn btn-primary btn-lg rounded-3">
-        About Me
-      </NavLink>
-      <NavLink to="/projects" className="btn btn-outline-primary btn-lg rounded-3">
-        View Projects
-      </NavLink> */}
+    
     </div>
   </div>
 );
