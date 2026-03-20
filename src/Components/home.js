@@ -13,11 +13,11 @@ const Home = () => (
       Hi, I’m Prachi Sharma
     </h1>
     <p className="fs-5 text-secondary mb-4">
-      Technical Product Consultant | Adobe Audience Manager 
+      Technical Product Consultant | Adobe Audience Manager
     </p>
 
     <div className="d-flex justify-content-center gap-3">
-<button id="personalization-btn" className="btn btn-primary btn-lg rounded-3">Click for Personalization</button>
+      <button id="personalization-btn" className="btn btn-primary btn-lg rounded-3">Personalization</button>
       {/* <NavLink to="/about" className="btn btn-primary btn-lg rounded-3">
         About Me
       </NavLink>
