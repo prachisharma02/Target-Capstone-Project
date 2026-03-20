@@ -20,7 +20,15 @@ nav a:hover {
   transform: translateY(-1px);
   transition: all 0.3s ease;
 }
-
+#capstone-target {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  padding: 15px 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  letter-spacing: 1px;
+}
 /* Hero Section */
 .hero-image {
   transition: transform 0.3s ease;

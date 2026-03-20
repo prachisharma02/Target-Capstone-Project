@@ -1,12 +1,16 @@
 import React from "react";
 
-const Contact = () => (
+const Contact = () => (<>
+   <div id="capstone-target" className="text-center">
+      This is the custom mbox default content for the Capstone Project
+    </div>
   <div
     className="container-fluid py-5"
     style={{
       background: "linear-gradient(135deg, #fce4ec, #e3f2fd, #f3e5f5)",
     }}
   >
+    
     <div className="container text-center">
       <h2 className="display-5 fw-bold mb-4 text-dark">
         Get in Touch
@@ -52,12 +56,13 @@ For inquiries related to Adobe Audience Manager implementations, integrations, o
       </div>
 
       <div className="mt-5 text-muted">
-        <p className="mb-2">Email: prachi@example.com</p>
-        <p className="mb-2">LinkedIn: linkedin.com/in/prachi-sharma</p>
-        <p className="mb-0">Delhi, India</p>
+        <p className="mb-2">Email: prachips2621@gmail.com</p>
+        <p className="mb-2">LinkedIn: https://www.linkedin.com/in/prachisharmaps02/</p>
+        <p className="mb-0">Noida, India</p>
       </div>
     </div>
   </div>
+  </>
 );
 
 export default Contact;

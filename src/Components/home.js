@@ -17,12 +17,13 @@ const Home = () => (
     </p>
 
     <div className="d-flex justify-content-center gap-3">
-      <NavLink to="/about" className="btn btn-primary btn-lg rounded-3">
+<button id="personalization-btn" className="btn btn-primary btn-lg rounded-3">Click for Personalization</button>
+      {/* <NavLink to="/about" className="btn btn-primary btn-lg rounded-3">
         About Me
       </NavLink>
       <NavLink to="/projects" className="btn btn-outline-primary btn-lg rounded-3">
         View Projects
-      </NavLink>
+      </NavLink> */}
     </div>
   </div>
 );
